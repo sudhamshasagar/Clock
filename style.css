@@ -55,3 +55,17 @@ body{
     height: var(--h);
     border-radius: 8px;
 }
+
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+  .container {
+    width: 100%;
+  }
+  
+  .clock {
+    height: 300px;
+    width: 300px;
+  }
+  
+  /* Adjust other styles as needed */
+}
